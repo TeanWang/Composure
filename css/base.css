@@ -1,0 +1,43 @@
+* {margin:0; padding:0}
+ul,ol {list-style-type: none}
+img {border:0 none; vertical-align: top}
+body {font-family: "Segoe UI Light", Calibri; font-size:14px;}
+
+a {text-decoration: none; color:#686868;}
+
+.cf:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.cf {
+    *zoom:1;
+}
+
+.container {width:1200px; margin: 0 auto;}
+
+.top-container {width:1200px; margin: 0 auto; height: 128px; }
+.foot-top {background: #222f35; height: 210px;}
+.foot-bottom {background: #172125; height: 53px;}
+.footer-container {margin-top: 10px}
+
+.top-logo {float:left}
+.top-search {float:right; padding-top: 25px;}
+
+.logo-img {float:left; padding-top: 35px}
+.logo-desc {float: left; margin-left: 20px; border-left: 1px solid #dcdcdc; height: 43px; margin-top: 25px; padding-left: 20px; color:#999; font-size: 12px; line-height: 20px; text-transform: uppercase;}
+
+.txt-kw {width:295px; height: 41px; border: 1px solid #dcdcdc; border-right:0 none; vertical-align: middle; padding-left: 14px; outline: none;font-family: "Segoe UI Light", Calibri}
+.btn-search {width:44px; height: 43px; background: #ff5842 url("../images/search.png") no-repeat center center; border: 0 none; vertical-align: middle; cursor: pointer}
+
+.nav-bar {margin-top: 20px;}
+.nav {float:left}
+.nav li {float:left; padding-right: 45px}
+.nav li a {font-size:20px; color:#686868;}
+.nav li a:hover, .nav li a.cur {color:#ff5842;}
+
+.btn-group {float: right}
+.btn-group a {display: inline-block; height:27px; line-height: 27px; padding:0 10px; background: #a1a1a1; color:#fff;}
+.btn-group a.cur {background: #ff5842}
+
+.copyright {color:#82a0ad; line-height: 53px; font-weight: bold; float: left}
