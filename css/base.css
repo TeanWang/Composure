@@ -17,7 +17,7 @@ a {text-decoration: none; color:#686868;}
 .container {width:1200px; margin: 0 auto;}
 
 .top-container {width:1200px; margin: 0 auto; height: 128px; }
-.foot-top {background: #222f35; height: 210px;}
+.foot-top {background: #222f35; height: 210px; padding-top: 20px;}
 .foot-bottom {background: #172125; height: 53px;}
 .footer-container {margin-top: 10px}
 
@@ -40,4 +40,21 @@ a {text-decoration: none; color:#686868;}
 .btn-group a {display: inline-block; height:27px; line-height: 27px; padding:0 10px; background: #a1a1a1; color:#fff;}
 .btn-group a.cur {background: #ff5842}
 
-.copyright {color:#82a0ad; line-height: 53px; font-weight: bold; float: left}
+.foot-top dl {float: left; color:#829fad; }
+.foot-top dl dt {color:#fff; font-size: 24px; padding-bottom: 15px;}
+.about-company {width:365px; padding-right: 130px;}
+.about-company dt {background: url("../images/icon-company.png") no-repeat 0 0; height: 32px; line-height: 32px; padding-left: 40px}
+.about-company dd {line-height: 22px}
+.copyright-nav {margin: 0 54px 0 74px;}
+.copyright-nav a {line-height: 24px; color: #829fad}
+.copyright-nav a:hover {color:#fff;}
+
+.copyright {color:#82a0ad; line-height: 53px; float: left}
+.link-icon {float: right; padding-top: 7px;}
+.link-icon li {float: left; margin-left: 2px;}
+.link-icon a {display: inline-block; width: 37px; height: 37px; background: url("../images/cp-icon.gif"); text-indent:-9999px; opacity: .8; filter: alpha(opacity=80)}
+.link-icon a:hover {opacity: 1; filter: alpha(opacity=100)}
+.link-icon a.icon-facebook {background-position: 0 0}
+.link-icon a.icon-twitter {background-position: -39px 0}
+.link-icon a.icon-google {background-position: -78px 0}
+.link-icon a.icon-youtube {background-position: -118px 0}
