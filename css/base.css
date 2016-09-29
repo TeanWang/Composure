@@ -44,7 +44,7 @@ a {text-decoration: none; color:#686868;}
 .foot-top dl dt {color:#fff; font-size: 24px; padding-bottom: 15px;}
 .about-company {width:365px; padding-right: 130px;}
 .about-company dt {background: url("../images/icon-company.png") no-repeat 0 0; height: 32px; line-height: 32px; padding-left: 40px}
-.about-company dd {line-height: 22px}
+.about-company dd {line-height: 22px; text-align: justify}
 .copyright-nav {margin: 0 54px 0 74px;}
 .copyright-nav a {line-height: 24px; color: #829fad}
 .copyright-nav a:hover {color:#fff;}
