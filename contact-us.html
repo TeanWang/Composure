@@ -6,8 +6,11 @@
     <meta name="viewport" content="initial-scale=1,width=device-width,user-scalable=no,maximum-scale=1.0">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/contact.css">
+    <!-- 让IE支持h5标签 -->
+    <!--[if IE]><script src="http://cdn.bootcss.com/html5shiv/r29/html5.min.js"></script><![endif]-->
 </head>
 <body>
+<!-- 公用头部 -->
 <header class="top-container">
     <div class="cf">
         <div class="top-logo">
@@ -41,7 +44,28 @@
         </div>
     </div>
 </header>
+<!-- #END 公用头部 -->
 <div class="banner"></div>
+<div class="container">
+    <h3 class="contact-us">Contact Us</h3>
+    <p class="contact-info">Nullam ut commodo velit. Quisque sit amet arcu nisi. Sed id massa et mauris lacinia condimentum. In luctus suscipit laoreet. Suspendisse a arcu quis neque tincidunt posuere sagittis ac lacus. Aenean tristique accumsan ipsum vitae molestie. Etiam vulputate.</p>
+    <div class="contact-form">
+        <form action="#" method="post">
+            <ul>
+                <li class="form-top cf">
+                    <input type="text" name="name" placeholder="Your Name">
+                    <input type="text" name="email" placeholder="Your Email" class="txt-email">
+                    <input type="text" name="website" placeholder="Your Website">
+                </li>
+                <li class="form-middle">
+                    <textarea name="message" placeholder="Your Message"></textarea>
+                </li>
+                <li class="form-bottom"><input type="submit" value="Send Message"></li>
+            </ul>
+        </form>
+    </div>
+</div>
+<!-- 公用低部 -->
 <footer class="footer-container">
     <div class="foot-top">
         <div class="container cf">
@@ -84,5 +108,6 @@
         </div>
     </div>
 </footer>
+<!-- #END 公用低部 -->
 </body>
 </html>

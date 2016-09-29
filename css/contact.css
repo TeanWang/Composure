@@ -1,1 +1,9 @@
-.banner {height:512px; border-top: 5px solid #efefef; background: #f4f4f4}
+.banner {height:512px; border-top: 5px solid #efefef; background: #f4f4f4; background: url("../images/banner-bg.jpg") no-repeat center 0}
+.contact-us {background: url("../images/icon-phone.png") no-repeat 0 center; padding-left: 40px; font-size: 24px; font-weight: normal; margin: 20px 0}
+.contact-info {font-size:16px; color:#000; line-height: 28px;}
+.contact-form {padding: 20px 0}
+.form-top input {float:left; width:367px; height:46px; border:2px solid #f8f8f8; padding-left: 9px; font-size: 16px; line-height: 46px;}
+.txt-email {margin: 0 30px;}
+.form-middle {padding: 30px 0}
+.form-middle textarea {width:1187px; height: 146px; border:2px solid #f8f8f8; padding-left: 9px; font-size: 16px; line-height: 30px; resize: none}
+.form-bottom input {width:281px; height: 47px; border: 0 none; cursor: pointer; background: #ff5842; color:#fff; font-size: 16px;}

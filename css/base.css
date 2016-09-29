@@ -2,6 +2,10 @@
 ul,ol {list-style-type: none}
 img {border:0 none; vertical-align: top}
 body {font-family: "Segoe UI Light", Calibri; font-size:14px;}
+input, textarea {font-family: "Segoe UI Light", Calibri; outline: none}
+
+/*html5*/
+article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}
 
 a {text-decoration: none; color:#686868;}
 
@@ -27,7 +31,7 @@ a {text-decoration: none; color:#686868;}
 .logo-img {float:left; padding-top: 35px}
 .logo-desc {float: left; margin-left: 20px; border-left: 1px solid #dcdcdc; height: 43px; margin-top: 25px; padding-left: 20px; color:#999; font-size: 12px; line-height: 20px; text-transform: uppercase;}
 
-.txt-kw {width:295px; height: 41px; border: 1px solid #dcdcdc; border-right:0 none; vertical-align: middle; padding-left: 14px; outline: none;font-family: "Segoe UI Light", Calibri}
+.txt-kw {width:295px; height: 41px; border: 1px solid #dcdcdc; border-right:0 none; vertical-align: middle; padding-left: 14px; }
 .btn-search {width:44px; height: 43px; background: #ff5842 url("../images/search.png") no-repeat center center; border: 0 none; vertical-align: middle; cursor: pointer}
 
 .nav-bar {margin-top: 20px;}
