@@ -1,0 +1,27 @@
+.index-main {}
+.main {float:left; width: 880px; background: #ccc; height: 1000px}
+.index-aside {float: right; width: 300px;}
+.follow-us {overflow: hidden}
+.follow-us h3 {}
+.follow-us ul {width: 310px}
+.follow-us ul li {float:left; margin:0 6px 6px 0}
+.follow-us ul li a { background: url("../images/index-icon.png") no-repeat 0 0; width: 45px; height: 45px; display: block; text-indent: -9999px; opacity: .85; filter: alpha(opacity=85)}
+.follow-us ul li a:hover {opacity: 1; filter: alpha(opacity=100)}
+.follow-us ul li a.icon-2 {background-position: -51px 0}
+.follow-us ul li a.icon-3 {background-position: -102px 0}
+.follow-us ul li a.icon-4 {background-position: -153px 0}
+.follow-us ul li a.icon-5 {background-position: -204px 0}
+.follow-us ul li a.icon-6 {background-position: -255px 0}
+.follow-us ul li a.icon-7 {background-position: 0 -51px}
+.follow-us ul li a.icon-8 {background-position: -51px -51px}
+.follow-us ul li a.icon-9 {background-position: -102px -51px}
+.follow-us ul li a.icon-10 {background-position: -153px -51px}
+.follow-us ul li a.icon-11 {background-position: -204px -51px}
+.follow-us ul li a.icon-12 {background-position: -255px -51px}
+.follow-us ul li a.icon-13 {background-position: 0 -102px}
+.follow-us ul li a.icon-14 {background-position: -51px -102px}
+.follow-us ul li a.icon-15 {background-position: -102px -102px}
+.follow-us ul li a.icon-16 {background-position: -153px -102px}
+.follow-us ul li a.icon-17 {background-position: -204px -102px}
+.follow-us ul li a.icon-18 {background-position: -255px -102px}
+
