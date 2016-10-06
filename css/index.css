@@ -25,3 +25,12 @@
 .follow-us ul li a.icon-17 {background-position: -204px -102px}
 .follow-us ul li a.icon-18 {background-position: -255px -102px}
 
+.index-banner {margin: 20px 0}
+.index-banner-header {}
+.index-banner-header h3 {font-size:18px; font-weight: normal; float: left}
+.index-banner-header .right {font-size:18px; font-weight: normal; float: right}
+.index-banner-header .right a {font-size:28px; display: inline-block; width: 42px; height: 42px; background: #f5f5f5; color:#999; text-align: center; line-height: 42px; font-family: Consolas}
+.index-banner-wrap {width: 1200px; overflow: hidden; margin: 20px 0}
+.index-banner-wrap ul {width: 5000px; position: relative}
+.index-banner-wrap ul li {width:386px; height: 327px; float: left; margin-right: 21px}
+
